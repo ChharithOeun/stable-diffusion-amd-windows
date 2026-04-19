@@ -1,0 +1,27 @@
+# Stable Diffusion on AMD GPU via DirectML
+# Install with: pip install -r requirements.txt
+
+# PyTorch DirectML backend (AMD GPU support on Windows)
+torch-directml>=0.2.0
+
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Stable Diffusion pipeline
+diffusers>=0.24.0
+transformers>=4.35.0
+accelerate>=0.24.0
+
+# Model format support
+safetensors>=0.4.0
+omegaconf>=2.3.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# Utilities
+tqdm>=4.66.0
+huggingface-hub>=0.19.0
+requests>=2.31.0
