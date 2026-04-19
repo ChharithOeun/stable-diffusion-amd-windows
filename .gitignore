@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Outputs
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+
+# Models / cache
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+.cache/
+
+# Config with secrets
+config.json
+*.env
+.env
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
